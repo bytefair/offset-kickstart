@@ -33,7 +33,8 @@
     "require": {
         "composer/installers": "1.0.12",
         "fancyguy/webroot-installer": "1.1.0",
-        "wordpress/wordpress": "3.8.*"
+        "wordpress/wordpress": "3.8.*",
+        "vlucas/phpdotenv": "~1.0.6"
     },
     "extra": {
         "installer-paths": {
