@@ -1,0 +1,14 @@
+{
+    "name": "paul/offset-kickstart",
+    "description": "A full stack WP install with cool defaults + Offset theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Graham",
+            "email": "paul@bytefair.com"
+        }
+    ],
+    "require": {
+
+    }
+}
