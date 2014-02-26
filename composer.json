@@ -8,7 +8,39 @@
             "email": "paul@bytefair.com"
         }
     ],
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "http://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "type": "webroot",
+                "version": "3.8.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/WordPress/WordPress.git",
+                    "reference": "3.8.1"
+                }
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.1.0"
+            }
+        }
+    ],
     "require": {
-
+        "composer/installers": "1.0.12",
+        "fancyguy/webroot-installer": "1.1.0",
+        "wordpress/wordpress": "3.8.*"
+    },
+    "extra": {
+        "installer-paths": {
+            "app/plugins/{#name}/": ["type:wordpress-plugin"],
+            "app/themes/{#name}/": ["type:wordpress-theme"]
+        },
+        "webroot-dir": "wordpress",
+        "webroot-package": "wordpress/wordpress"
     }
 }
