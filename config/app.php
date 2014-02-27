@@ -59,7 +59,7 @@ $table_prefix = 'wp_';
 
 // Bootstrap WP
 if ( !defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', $root . '/wp/' );
+	define( 'ABSPATH', $root . '/wordpress/' );
 }
 
 
