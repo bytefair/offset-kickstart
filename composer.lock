@@ -3,15 +3,15 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a35b0cac8c5af410da3dc8ee81700664",
+    "hash": "0af3149386f4fc535c35eb8a546071ef",
     "packages": [
         {
             "name": "bytefair/offset",
-            "version": "0.2",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytefair/offset.git",
-                "reference": "v0.2.0"
+                "reference": "0.2.1"
             },
             "type": "wordpress-theme"
         },

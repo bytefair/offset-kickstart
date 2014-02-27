@@ -33,12 +33,12 @@
             "type": "package",
             "package": {
                 "name": "bytefair/offset",
-                "version": "0.2.0",
+                "version": "0.2.1",
                 "type": "wordpress-theme",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytefair/offset.git",
-                    "reference": "0.2.0"
+                    "reference": "0.2.1"
                 }
             },
             "require": {
@@ -51,7 +51,7 @@
         "fancyguy/webroot-installer": "1.1.0",
         "wordpress/wordpress": "3.8.*",
         "vlucas/phpdotenv": "~1.0.6",
-        "bytefair/offset": "~0.2.0"
+        "bytefair/offset": "~0.2.1"
     },
     "require-dev": {
         "wpackagist-plugin/developer": "~1.2.5"

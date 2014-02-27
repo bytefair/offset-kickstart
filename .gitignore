@@ -2,3 +2,4 @@ vendor
 wordpress
 .env
 app/plugins
+app/themes/offset
