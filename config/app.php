@@ -66,7 +66,7 @@ if ( !defined( 'ABSPATH' ) ) {
 // I'm an idiot
 function error_container( $content ) {
 	$container  ='<iframe src="http://giphy.com/embed/usUm1EU5N5CBG" width="100%" height="98%" frameBorder="0"></iframe>';
-	$container .= '<div style="position: absolute; top:1em; left:1em; margin-right: 1em; margin-bottom: 1em; padding: 2em; background: grey; color: white; max-width: 400px;">';
+	$container .= '<div style="position: absolute; top:1em; left:1em; margin-right: 1em; margin-bottom: 1em; padding: 2em; padding-top: 1em; background: grey; color: white; max-width: 400px; font-family: Frutiger, Univers, Calibri, Myriad, Tahoma, Geneva, Helvetica, Arial, sans-serif;">';
 	$container .= $content;
 	$container .= '</div>';
 
