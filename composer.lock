@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0af3149386f4fc535c35eb8a546071ef",
+    "hash": "1c8c8d2436bbf3eea87f52a2d921eb9f",
     "packages": [
         {
             "name": "bytefair/offset",
@@ -190,10 +190,11 @@
         {
             "name": "wordpress/wordpress",
             "version": "3.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "3.8.1"
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/WordPress/WordPress/archive/3.8.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "webroot"
         }
