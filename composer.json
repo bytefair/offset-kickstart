@@ -50,7 +50,8 @@
         "fancyguy/webroot-installer": "1.1.0",
         "wordpress/wordpress": "3.8.*",
         "vlucas/phpdotenv": "~1.0.6",
-        "bytefair/offset": "~0.2.1"
+        "bytefair/offset": "~0.2.1",
+        "wpackagist-plugin/timber": "~0.8"
     },
     "require-dev": {
         "wpackagist-plugin/developer": "~1.2.5"

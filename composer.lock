@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3ae104813c8cb11737b3caf5ed064fc1",
+    "hash": "16eee08fbdb065e01c41806d0267b53e",
     "packages": [
         {
             "name": "bytefair/offset",
@@ -197,6 +197,29 @@
                 "shasum": null
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/timber",
+            "version": "0.8",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/timber/",
+                "reference": "tags/0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/timber.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/timber": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/timber/"
         }
     ],
     "packages-dev": [
